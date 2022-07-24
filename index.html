@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/8484359e3f.js" crossorigin="anonymous"></script>
     <title>Green Garden</title>
 </head>
 <body>
@@ -22,17 +22,17 @@
     <!-- Nav bar-->
              <nav class="navbar_green_garden"> 
                 <ul>
-                    <li><a href="#">Inicio </a></li>
-                    <li><a href="#">Galeria </a></li>
+                    <li><a href="#inicio">Inicio </a></li>
+                    <li><a href="#galeria">Galeria </a></li>
                     <li><a href="./index.register.html">Contactanos </a></li>
-                    <li><a href="#">Sobre Nosotros </a> </li>
+                    <li><a href="#footer">Sobre Nosotros </a> </li>
 
                  </ul>
             </nav>
         </div>
     </header>
     <!--Primera Galeria: hero de Green garden -->
-    <div class="galery_green_garden">
+    <div id="#inicio" class="galery_green_garden">
         <div class="inicio_green_garden">
             <img src="./img/greengardenlogo.png" alt="logo_green_garden">
         </div>
@@ -48,7 +48,7 @@
     </div>
     <section> 
         <!--Galeria fotografica de Green Garden-->
-        <div class="galery2_green_garden">
+        <div id="#galeria"  class="galery2_green_garden">
             <div class="garden_images_card">
                 <img src="./img/garde_galery.png" alt="jardin lleno de plantas">
                 <h4> Viveros</h4>
@@ -81,5 +81,34 @@
             </div>
         </div>
     </section>
+    <footer id="#footer" class="footer_green_garden">
+        <div class="footer_box1">
+            <div class="box"> 
+                <figure>
+                    <a href="#">
+                        <img src="./img/icono03.png" alt="icono green garden">
+                    </a>
+                </figure>
+            </div>
+            <div class="box"> 
+                <h2>Sobre Nosotros</h2>
+                <p> Green Garden cuenta con más de 10 años de experiencia en jardineria a nivel industrial. Comenzamos como un emprendimiento de amigos, y hoy contamos con sucursales en diferentes puntos del pais: Córdoba, Buenos Aires, Rosario, y La Plata</p>
+                <p> Amamos poder mejorar la performance de tus espacios con experiencias más proximas al verde, no dudes en consultarnos, ¡Nuestros especialistas están para ayudarte!</p> 
+            </div>
+            <div class="box"> 
+                <h2> Siguenos en nuestras redes.</h2>
+                <div class="redes_sociales">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_box2">
+            <small> &copy; 2022 <b> Tomás Benedetti</b>- Todos los derechos Reservados.</small> 
+        </div>
+        
+    </footer>
 </body>
 </html>
